@@ -1,0 +1,25 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import LeftRight from "../../layouts/LeftRight.astro";
+import CheckList from "../../components/Checklist.tsx";
+import travelAboadCheckList from "../../../public/checklists/travel_abroad.json";
+
+const pageEmoji = "✈️";
+const pageTitle = "Travel abroad";
+const pageBgClass = "bg-chk-teal";
+const pageTitleClrClass = "text-chk-cream";
+---
+<Layout title=`Pakupack | ${pageTitle}`>
+  <LeftRight>
+    <div slot="left-side" class=`${pageBgClass} flex flex-col items-center`>
+      <div class="mt-auto mb-auto flex flex-col items-center gap-6">
+        <span class="text-3xl text-center">{pageEmoji}</span>
+        <h1 class=`text-3xl ${pageTitleClrClass}`>{pageTitle}</h1>
+      </div>
+
+    </div>
+    <div slot="right-side" class="p-8">
+      <CheckList checklist={travelAboadCheckList} client:load/>
+    </div>
+  </LeftRight>
+</Layout>

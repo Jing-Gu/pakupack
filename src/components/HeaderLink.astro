@@ -1,0 +1,12 @@
+---
+const { href } = Astro.props;
+const { pathname } = Astro.url;
+const subpath = pathname.match(/[^\/]+/g);
+const isActive = href === pathname || href === '/' + subpath?.[0];
+---
+
+<a href={href} class={`text-chk-charcoal py-2 px-3 rounded-md transition-colors hover:bg-chk-teal-100
+	${isActive ? 'bg-chk-teal-100' : ''}`}>
+	<slot />
+</a>
+

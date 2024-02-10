@@ -1,0 +1,19 @@
+---
+interface Props {
+	href: string;
+  emoji: string;
+  title: string;
+}
+
+const { href, emoji, title } = Astro.props;
+---
+
+<a href={href} class="group relative block">
+  <span class="absolute inset-0 border-2 border-dashed border-chk-charcoal rounded-md"></span>
+  <div class="relative flex gap-6  h-full transform items-end border-2 border-chk-charcoal
+    p-4 rounded-md bg-white transition-transform
+    group-hover:-translate-x-2 group-hover:-translate-y-2">
+    <p class="text-lg">{emoji}</p>
+    <p class="text-lg rounded-md text-chk-charcoal capitalize">{title}</p>
+  </div>
+</a>

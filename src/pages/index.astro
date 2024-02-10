@@ -1,0 +1,47 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Main from "../layouts/Main.astro";
+import Card from "../components/Card.astro";
+import Cta from "../components/Cta.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout>
+	<div class="bg-chk-cream flex">
+		<Main>
+			<div class="flex">
+				<div class="flex-1 h-full flex flex-col items-center justify-center">
+					<div class="flex flex-col gap-4">
+						<h1 class="text-4xl font-bold text-chk-charcoal">Pack like a pro</h1>
+						<p class="text-chk-smoke">Packing is stressful, we get it, but it doesn't have to be.</p>
+					</div>
+
+				</div>
+				<div class="flex-1">
+					<div class="bg-white w-60 h-96"></div>
+				</div>
+			</div>
+
+			<h2 class="text-chk-charcoal text-lg">No panic, you can hit the checklist one by one</h2>
+			<div class="flex flex-wrap gap-6">
+				<Card href="checklists/roadtrip" emoji="🪪" title="essentials"/>
+				<Card href="checklists/roadtrip" emoji="💊" title="health & safety"/>
+				<Card href="checklists/roadtrip" emoji="📷" title="electronics & entertainment"/>
+				<Card href="checklists/roadtrip" emoji="👕" title="clothing & footwear"/>
+				<Card href="checklists/roadtrip" emoji="🧴" title="toiletries"/>
+				<Card href="checklists/roadtrip" emoji="🕶️" title="comfort items"/>
+				<Card href="checklists/roadtrip" emoji="🏠" title="never leave your house unattended"/>
+			</div>
+			<h2 class="text-chk-charcoal text-lg" id="allLists">Or, just tell us what kind of travel are you planning?</h2>
+			<div class="flex flex-wrap gap-6">
+				<Card href="checklists/travel-abroad" emoji="✈️" title="travel abroad"/>
+				<Card href="checklists/roadtrip" emoji="🚗" title="road trip"/>
+				<Card href="checklists/roadtrip" emoji="🏖️" title="beach vacation"/>
+			</div>
+
+			<Cta />
+
+		</Main>
+	</div>
+</Layout>
+<Footer />

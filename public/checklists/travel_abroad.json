@@ -1,0 +1,29 @@
+[
+  {
+    "category": "travel documents",
+    "contents": [
+    {
+      "id": 1,
+      "label": "passport",
+      "details": "check the expiration date, leave six months' validity to be safe",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "label": "visas",
+      "details": "check your destination country about entry requirement",
+      "completed": false
+    },
+    { "id": 3, "label": "flight booking info", "completed": false },
+    { "id": 4, "label": "travel insurance", "completed": false }
+  ]},
+  {
+    "category": "health & safety",
+    "contents": [
+    { "id": 5, "label": "first-aid kit", "completed": false },
+    { "id": 6, "label": "medication", "completed": false },
+    { "id": 7, "label": "Allergy pills", "completed": false },
+    { "id": 8, "label": "Antibiotic cream", "completed": false }
+  ]}
+
+]
