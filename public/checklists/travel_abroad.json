@@ -3,27 +3,60 @@
     "category": "travel documents",
     "contents": [
     {
-      "id": 1,
       "label": "passport",
-      "details": "check the expiration date, leave six months' validity to be safe",
-      "completed": false
+      "details": "check the expiration date, leave six months' validity to be safe"
     },
     {
-      "id": 2,
       "label": "visas",
-      "details": "check your destination country about entry requirement",
-      "completed": false
+      "details": "check your destination country about entry requirement"
     },
-    { "id": 3, "label": "flight booking info", "completed": false },
-    { "id": 4, "label": "travel insurance", "completed": false }
-  ]},
+    {
+      "label": "flight booking info",
+      "details": "print or save in the phone"
+    },
+    {
+      "label": "travel insurance"
+   },
+     {
+      "label": "travel document holder",
+      "details": "a good one should organise all your IDs, cards and tickets neatly and easily accessible"
+    }]
+  },
+  {
+    "category": "international needs",
+    "contents": [
+      {
+        "label": "vaccinations",
+        "details": "consult your local travel clinic for any potential risk in your destination"
+      },
+      {
+        "label": "international SIM card or roaming plan"
+      },
+      {
+        "label": "foreign cash"
+      },
+      {
+        "label": "credit / ATM cards"
+      },
+      {
+        "label": "global adapter"
+      },
+      {
+        "label": "language translation apps or phrasebooks"
+      }
+    ]
+  },
   {
     "category": "health & safety",
     "contents": [
-    { "id": 5, "label": "first-aid kit", "completed": false },
-    { "id": 6, "label": "medication", "completed": false },
-    { "id": 7, "label": "Allergy pills", "completed": false },
-    { "id": 8, "label": "Antibiotic cream", "completed": false }
+    {
+      "label": "first-aid kit" },
+    {
+      "label": "medication" },
+    {
+      "label": "Allergy pills" },
+    {
+      "label": "Antibiotic cream" }
   ]}
 
 ]
