@@ -2,19 +2,22 @@
 import HeaderLink from './HeaderLink.astro';
 ---
 
-<header class="shadow-md flex items-center justify-between py-4 px-16 z-10">
-	<a href="/" class="flex items-center gap-4 h-12">
+<header class="shadow-md flex items-center justify-between py-4 px-4 md:px-16 z-10
+	fixed top-0 left-0 right-0 bg-white">
+	<a href="/" class="flex items-center gap-4 h-8 md:h-12">
 		<img src="/pakupack.png" alt="pakupack" class="h-full">
-		<span class="text-chk-teal text-3xl font-bold">Pakupack</span>
-		<span class="text-chk-smoke">Traveler's Checklist</span>
+		<span class="text-chk-teal text-xl md:text-3xl font-bold">Pakupack</span>
+		<span class="text-chk-smoke hidden md:block">Traveler's Checklist</span>
 	</a>
-	<nav class="flex gap-6">
-		<HeaderLink href="/checklists/travel-abroad">✈️ Travel abroad</HeaderLink>
-		<HeaderLink href="/checklists/roadtrip">🚗 Road trip</HeaderLink>
-		<HeaderLink href="/checklists/beach-vacation">🏖️ Beach vacation</HeaderLink>
-		<HeaderLink href="/#allLists">🗺️ More</HeaderLink>
-		<button class="rounded-md bg-chk-orange w-9 h-9 gird place-content-center p-1 ml-6">
+	<div class="flex items-center">
+		<nav class="hidden md:flex gap-6">
+			<HeaderLink href="/checklists/travel-abroad">✈️ Travel abroad</HeaderLink>
+			<HeaderLink href="/checklists/roadtrip">🚗 Road trip</HeaderLink>
+			<HeaderLink href="/checklists/beach-vacation">🏖️ Beach vacation</HeaderLink>
+			<HeaderLink href="/#allLists">🗺️ More</HeaderLink>
+		</nav>
+		<button class="rounded-md bg-chk-orange w-9 h-9 gird place-content-center p-1 ml-auto md:ml-12">
 			<img src="/buy_me_coffee_logo.png" alt="">
 		</button>
-	</nav>
+	</div>
 </header>
