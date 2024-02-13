@@ -2,6 +2,9 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}'],
 	theme: {
+		fontFamily: {
+      sans: ['Atkinson-Regular', 'Atkinson-Bold', 'sans-serif']
+    },
 		colors: {
 			"chk-teal-100": "#dcf7f7",
 			"chk-teal-300": "#5AE2C7",

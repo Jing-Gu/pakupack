@@ -41,10 +41,9 @@ const Checklist: React.FC<{ checklist: ChecklistItems[] }> = ({ checklist }) => 
         ...prevCheckedItems,
         [uid]: !prevCheckedItems[uid],
       };
-      setCheckedCount(Object.values(updatedCheckedItems).filter(Boolean).length);
+      setCheckedCount(Object.values(updatedCheckedItems).filter(item => item).length);
       return updatedCheckedItems;
     });
-    setCheckedCount(Object.values(checkedItems).filter(Boolean).length);
   };
 
   const handleUncheckAll = () => {
@@ -60,10 +59,10 @@ const Checklist: React.FC<{ checklist: ChecklistItems[] }> = ({ checklist }) => 
     <div>
       {listWithIds.map((categoryItem, categoryIndex) => (
         <div key={categoryIndex} className='mb-4'>
-          <h2 className='text-lg capitalize text-chk-smoke'>{categoryItem.category}</h2>
+          <h2 className='text-lg my-4 capitalize text-chk-smoke'>{categoryItem.category}</h2>
           <ul>
             {categoryItem.contents.map((item, itemIndex) => (
-              <li key={itemIndex}>
+              <li key={itemIndex} className='mb-4'>
                 <div className='inline-flex items-center'>
                   <label className="relative flex items-center p-3 rounded-full cursor-pointer" htmlFor={`checkbox-${item.uid}`}>
                     <input type="checkbox" id={`checkbox-${item.uid}`}
@@ -87,8 +86,12 @@ const Checklist: React.FC<{ checklist: ChecklistItems[] }> = ({ checklist }) => 
                     </div>
                   </label>
                   <div>
-                    <label htmlFor={`checkbox-${item.uid}`} className='block text-chk-charcoal capitalize cursor-pointer'>{item.label}</label>
-                    {item.details && <span className="block text-xs text-chk-smoke">{item.details}</span>}
+                    <label htmlFor={`checkbox-${item.uid}`}
+                      className={`${categoryItem.category === 'tips' ? 'text-chk-teal' : 'text-chk-charcoal'}
+                      block capitalize cursor-pointer`}>
+                        {item.label}
+                    </label>
+                    {item.details && <span className="block capitalize text-xs text-chk-smoke">{item.details}</span>}
                   </div>
                 </div>
               </li>
@@ -96,8 +99,15 @@ const Checklist: React.FC<{ checklist: ChecklistItems[] }> = ({ checklist }) => 
           </ul>
         </div>
       ))}
-      <p className='text-chk-charcoal'><span className='text-chk-teal'>{checkedCount}</span> out of {totalCount} checked</p>
-      <button onClick={handleUncheckAll} className='rounded-md py-2 px-6 bg-chk-teal text-chk-cream'>Uncheck All</button>
+      <div className='flex flex-col md:flex-row md:justify-between items-center pt-6 mt-12 border-t-4 border-chk-cream'>
+        <p className='text-chk-charcoal mb-4 md:mb-0'>
+          <span className='text-chk-teal'>{checkedCount}</span> out of {totalCount} checked
+        </p>
+        <button onClick={handleUncheckAll} className='rounded-md py-2 px-6
+          bg-chk-teal text-chk-cream'>Uncheck All
+        </button>
+      </div>
+
     </div>
   );
 };

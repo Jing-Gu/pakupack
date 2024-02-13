@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Atkinson-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/atkinson-regular.woff') format('woff');
+    font-display: swap;
+  };
+  @font-face {
+    font-family: 'Atkinson-Bold';
+    font-style: bold;
+    font-weight: 700;
+    src: url('/fonts/atkinson-bold.woff') format('woff');
+    font-display: swap;
+  }
+}
+
