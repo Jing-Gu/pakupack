@@ -1,5 +1,6 @@
 ---
 const today = new Date();
+const githubLink = "https://github.com/Jing-Gu/pakupack"
 ---
 
 <footer class="text-chk-charcoal text-center p-8">
@@ -7,6 +8,8 @@ const today = new Date();
 		<img src="/pakupack.png" alt="pakupack" class="h-full">
 		<span class="text-chk-teal text-xl font-bold">Pakupack</span>
 	</span>
-	<p>Enjoy Pakupack? Give it a star on Github 👍</p>
+	<p>Enjoy Pakupack? Give it a star on
+		<a {href}={githubLink} target="_blank" class="text-chk-teal">Github</a> 👍
+	</p>
 	<p>&copy; {today.getFullYear()} Pakupack Traveler's Checklist. All rights reserved.</p>
 </footer>
