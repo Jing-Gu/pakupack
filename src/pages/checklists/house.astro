@@ -2,13 +2,14 @@
 import Layout from "../../layouts/Layout.astro";
 import LeftRight from "../../layouts/LeftRight.astro";
 import CheckList from "../../components/Checklist";
-import checklist from "../../../public/checklists/road_trip.json";
+import checklist from "../../../public/checklists/house.json";
 
-const pageEmoji = "🚗";
-const pageTitle = "Road trip";
-const pageBgClass = "bg-chk-salmon";
+const pageEmoji = "🏠";
+const pageTitle = "never leave your house unattended";
+const pageBgClass = "bg-chk-teal";
 const pageTitleClrClass = "text-chk-cream";
 ---
+
 <Layout title=`Pakupack | ${pageTitle}`>
   <LeftRight>
     <div slot="left-side" class=`${pageBgClass} flex flex-col items-center`>
@@ -18,7 +19,7 @@ const pageTitleClrClass = "text-chk-cream";
       </div>
     </div>
     <div slot="right-side" class="p-8 overflow-y-auto">
-      <CheckList checklist={checklist} client:load/>
+      <CheckList checklist={checklist} client:load />
     </div>
   </LeftRight>
 </Layout>

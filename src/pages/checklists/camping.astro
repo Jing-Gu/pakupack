@@ -2,23 +2,29 @@
 import Layout from "../../layouts/Layout.astro";
 import LeftRight from "../../layouts/LeftRight.astro";
 import CheckList from "../../components/Checklist";
-import checklist from "../../../public/checklists/road_trip.json";
+import chkCamp from "../../../public/checklists/camping.json";
+import chkHealth from "../../../public/checklists/health.json";
 
-const pageEmoji = "🚗";
-const pageTitle = "Road trip";
-const pageBgClass = "bg-chk-salmon";
+const mergedChecklist = [...chkCamp, ...chkHealth];
+
+const pageEmoji = "🏕️";
+const pageTitle = "Camping, hiking & backpacking";
+const pageBgClass = "bg-chk-teal";
 const pageTitleClrClass = "text-chk-cream";
 ---
+
 <Layout title=`Pakupack | ${pageTitle}`>
   <LeftRight>
     <div slot="left-side" class=`${pageBgClass} flex flex-col items-center`>
       <div class="mt-auto mb-auto py-12 flex flex-col items-center gap-6">
         <span class="text-3xl text-center">{pageEmoji}</span>
-        <h1 class=`text-xl md:text-3xl text-center ${pageTitleClrClass}`>{pageTitle}</h1>
+        <h1 class=`text-xl md:text-3xl text-center ${pageTitleClrClass}`>
+          {pageTitle}
+        </h1>
       </div>
     </div>
     <div slot="right-side" class="p-8 overflow-y-auto">
-      <CheckList checklist={checklist} client:load/>
+      <CheckList checklist={mergedChecklist} client:load />
     </div>
   </LeftRight>
 </Layout>
