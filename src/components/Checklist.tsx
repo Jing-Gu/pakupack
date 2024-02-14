@@ -87,11 +87,11 @@ const Checklist: React.FC<{ checklist: ChecklistItems[] }> = ({ checklist }) => 
                   </label>
                   <div>
                     <label htmlFor={`checkbox-${item.uid}`}
-                      className={`${categoryItem.category === 'tips' ? 'text-chk-teal' : 'text-chk-charcoal'}
-                      block capitalize cursor-pointer`}>
+                      className={`${categoryItem.category.includes('tips') ? 'text-chk-teal' : 'text-chk-charcoal'}
+                      block first-letter:capitalize cursor-pointer`}>
                         {item.label}
                     </label>
-                    {item.details && <span className="block capitalize text-xs text-chk-smoke">{item.details}</span>}
+                    {item.details && <span className="block first-letter:capitalize text-xs text-chk-smoke">{item.details}</span>}
                   </div>
                 </div>
               </li>
