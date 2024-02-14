@@ -1,5 +1,6 @@
 ---
 import HeaderLink from './HeaderLink.astro';
+import { buyMeCoffeeLink } from '../data/siteData.json';
 ---
 
 <header class="shadow-md flex items-center justify-between py-4 px-4 md:px-16 z-10
@@ -16,8 +17,9 @@ import HeaderLink from './HeaderLink.astro';
 			<HeaderLink href="/checklists/beach">🏖️ Beach vacation</HeaderLink>
 			<HeaderLink href="/#allLists">🗺️ More</HeaderLink>
 		</nav>
-		<button class="rounded-md bg-chk-orange w-9 h-9 gird place-content-center p-1 ml-auto md:ml-12">
+		<a {href}={buyMeCoffeeLink} target="_blank" class="rounded-md bg-chk-orange w-9 h-9 gird
+			place-content-center p-1 ml-auto md:ml-12">
 			<img src="/buy_me_coffee_logo.png" alt="">
-		</button>
+		</a>
 	</div>
 </header>
