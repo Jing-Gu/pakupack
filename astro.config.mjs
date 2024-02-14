@@ -7,6 +7,8 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://github.com/Jing-Gu/pakupack',
+  //to change to real, no base needed
+  //site: 'https://www.pakupack.app'
   integrations: [mdx(), sitemap(), tailwind(), react()]
 });
