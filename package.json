@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy:gh-page": "git checkout gh-page && git merge master && git push gh-page"
+    "deploy:gh-page": "git checkout gh-page && git merge master && git push"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.1",
