@@ -1,0 +1,109 @@
+[
+  {
+    "category": "car audit before hitting the road",
+    "contents": [
+      {
+        "label": "have your car inspected by a professional",
+        "details": "oil change, tire check, brakes, wheels, water"
+      },
+      {
+        "label": "maps or GPS navigation"
+      }
+    ]
+  },
+  {
+    "category": "car documents",
+    "contents": [
+      {
+        "label": "driving license"
+      },
+      {
+        "label": "car registration"
+      },
+      {
+        "label": "auto insurance"
+      },
+      {
+        "label": "car manual"
+      },
+      {
+        "label": "contact of roadside assistance"
+      }
+    ]
+  },
+  {
+    "category": "roadside emergency",
+    "contents": [
+      {
+        "label": "booster cables"
+      },
+      {
+        "label": "water resistant flashlight",
+        "details": "your car might break down at night, in the rain"
+      },
+      {
+        "label": "duct tape",
+        "details": "seriously can fix almost anything at least temporarily"
+      },
+      {
+        "label": "swiss army knife"
+      }
+    ]
+  },
+  {
+    "category": "personal care",
+    "contents": [
+      {
+        "label": "lip balm",
+        "details": "road trips lead to cracked lips…"
+      },
+      {
+        "label": "toilet paper"
+      },
+      {
+        "label": "hand sanitizer"
+      },
+      {
+        "label": "insect repellent"
+      },
+      {
+        "label": "first-aid kit",
+        "details": "check the health & safety checklist for more details"
+      },
+      {
+        "label": "plastic bags",
+        "details": "keep it handy, dirty shoes, trash, or someone may throw up"
+      },
+      {
+        "label": "blankets"
+      },
+      {
+        "label": "travel pillow"
+      },
+      {
+        "label": "waterproof jacket"
+      },
+      {
+        "label": "snacks and drinks"
+      },
+      {
+        "label": "water bottle",
+        "details": "leave nothing but footsteps"
+      }
+    ]
+  },
+  {
+    "category": "entertainment for the journey",
+    "contents": [
+      {
+        "label": "music playlists"
+      },
+      {
+        "label": "books or audiobooks"
+      },
+      {
+        "label": "boardgames"
+      }
+    ]
+  }
+]

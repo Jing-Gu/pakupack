@@ -1,0 +1,38 @@
+[
+  {
+    "category": "first-aid kit",
+    "contents": [
+      {
+        "label": "band-aid"
+      },
+      {
+        "label": "antibiotic cream",
+        "details": "for cuts and burns"
+      },
+      {
+        "label": "Hydrocortisone cream",
+        "details": "for rashes"
+      },
+      {
+        "label": "antibacterial wipes"
+      }
+    ]
+  },
+  {
+    "category": "medication",
+    "contents": [
+      {
+        "label": "tylenol (painkillers)"
+      },
+      {
+        "label": "allergy pills"
+      },
+      {
+        "label": "birth control"
+      },
+      {
+        "label": "personal prescription"
+      }
+    ]
+  }
+]

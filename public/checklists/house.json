@@ -1,0 +1,49 @@
+[
+  {
+    "category": "Before leaving your house",
+    "contents": [
+      {
+        "label": "take out the garbage"
+      },
+      {
+        "label": "turn off all lights and electronics"
+      },
+      {
+        "label": "lock all doors and windows"
+      },
+      {
+        "label": "pull all curtains"
+      },
+      {
+        "label": "check again your travel documents",
+        "details": "your last chance to make sure your passport or ID is with you"
+      }
+    ]
+  },
+  {
+    "category": "for longer trips",
+    "contents": [
+      {
+        "label": "empty the fridge and pantry of perishable food"
+      },
+      {
+        "label": "unplug electronics (computer, TV etc)"
+      },
+      {
+        "label": "turn off the main water valve"
+      },
+      {
+        "label": "stop deliveries"
+      },
+      {
+        "label": "put your mail on hould"
+      },
+      {
+        "label": "arrange for care of your pets, lawn, houseplants or snow removal"
+      },
+      {
+        "label": "consider asking your neighbour or a relative to check your place from time to time"
+      }
+    ]
+  }
+]

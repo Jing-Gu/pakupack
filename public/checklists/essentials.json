@@ -1,0 +1,27 @@
+[
+  {
+    "category": "photo IDs",
+    "contents": [
+      {
+        "label": "Driving license"
+      },
+      {
+        "label": "Medical card"
+      }
+    ]
+  },
+  {
+    "category": "Personals",
+    "contents": [
+      {
+        "label": "keys"
+      },
+      {
+        "label": "cash"
+      },
+      {
+        "label": "credit / debit cards"
+      }
+    ]
+  }
+]

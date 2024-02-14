@@ -1,0 +1,81 @@
+[
+  {
+    "category": "baby / toddler's clothing",
+    "contents": [
+      {
+        "label": "outfits (2 per day)"
+      },
+      {
+        "label": "diapers"
+      },
+      {
+        "label": "socks"
+      },
+      {
+        "label": "shoes"
+      },
+      {
+        "label": "outwears"
+      },
+      {
+        "label": "pajamas (minimum 2 pairs"
+      },
+      {
+        "label": "swaddle or sleeping sack"
+      },
+      {
+        "label": "bibs, burping cloths"
+      }
+    ]
+  },
+  {
+    "category": "diaper bag",
+    "contents": [
+      {
+        "label": "diapers"
+      },
+      {
+        "label": "wipes"
+      },
+      {
+        "label": "changing pad"
+      },
+      {
+        "label": "an extra set of clothes"
+      },
+      {
+        "label": "ziploc or plastic bags"
+      },
+      {
+        "label": "sippy cup/ bottle"
+      },
+      {
+        "label": "snacks"
+      },
+      {
+        "label": "feeding items",
+        "details": "bottles, baby food, utensils, placemat, etc."
+      },
+      {
+        "label": "nursing blanket or plush"
+      },
+      {
+        "label": "extra pacifiers"
+      }
+    ]
+  },
+  {
+    "category": "large items",
+    "contents": [
+      {
+        "label": "car seat & base"
+      },
+      {
+        "label": "stroller"
+      },
+      {
+        "label": "baby carrier"
+      }
+    ]
+  }
+]

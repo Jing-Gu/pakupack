@@ -1,0 +1,76 @@
+[
+  {
+    "category": "clothing",
+    "contents": [
+      {
+        "label": "casual tops"
+      },
+      {
+        "label": "dress tops"
+      },
+      {
+        "label": "casual pants"
+      },
+      {
+        "label": "dress pants"
+      },
+      {
+        "label": "outwear (jacket / coat)"
+      },
+      {
+        "label": "underwears"
+      },
+      {
+        "label": "sleepwear"
+      },
+      {
+        "label": "bras"
+      }
+    ]
+  },
+  {
+    "category": "footwear",
+    "contents": [
+      {
+        "label": "socks"
+      },
+      {
+        "label": "comfortable walking shoes"
+      },
+      {
+        "label": "dressy flats"
+      }
+    ]
+  },
+  {
+    "category": "accessories",
+    "contents": [
+      {
+      "label": "scarf or shawl"
+      },
+      {
+        "label": "hat or cap"
+      },
+      {
+        "label": "handbag"
+      }
+    ]
+  },
+  {
+    "category": "dressing tips",
+    "contents": [
+      {
+        "label": "Pick simple mix-and-match pieces to avoid overpacking",
+        "details": "Did you know that just 3 bottoms (pants, shorts, skirt, etc.), 4 tops (tee, tank, etc.), and 2 outer layers (sweater, coat, or cardigan) can make up to 24 different outfits?"
+      },
+      {
+        "label": "Utilize shoe space when you can",
+        "details": "Rolled-up socks, belts, gloves or other small items can easily fit into shoes. This also helps the shoe hold its shape throughout your travels."
+      },
+      {
+        "label": "Consider packing cubes and compression sacks",
+        "details": "besides saving considerable space, they can protect clothing from grime and spillages"
+      }
+    ]
+  }
+]

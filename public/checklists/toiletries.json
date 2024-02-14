@@ -1,0 +1,81 @@
+[
+  {
+    "category": "personal hygiene",
+    "contents": [
+      {
+        "label": "toothbrush and toothpaste"
+      },
+      {
+        "label": "travel size shampoo and conditioner"
+      },
+      {
+        "label": "floss"
+      },
+      {
+        "label": "deodorant"
+      },
+      {
+        "label": "razor or shaving kit"
+      }
+    ]
+  },
+  {
+    "category": "skincare",
+    "contents": [
+      {
+        "label": "facewash"
+      },
+      {
+        "label": "sunscreen"
+      },
+      {
+        "label": "hand or body lotion"
+      },
+      {
+        "label": "lip balm"
+      }
+    ]
+  },
+  {
+    "category": "personal care",
+    "contents": [
+      {
+        "label": "hair products"
+      },
+      {
+        "label": "comb / brush"
+      },
+      {
+        "label": "nail clipper"
+      },
+      {
+        "label": "perfume / cologne"
+      },
+      {
+        "label": "extra glasses or contact lens"
+      },
+      {
+        "label": "feminine hygiene products"
+      },
+      {
+        "label": "makeup"
+      },
+      {
+        "label": "makeup remover"
+      }
+    ]
+  },
+  {
+    "category": "liquid tips",
+    "contents": [
+      {
+        "label": "Pack liquids in secure bags",
+        "details": "Toiletries can leak, pack them in a plastic zippered bag. Use plastic wrap around the opening bottle cap for double safety."
+      },
+      {
+        "label": "3-1-1 rule for liquids in carry-on baggage",
+        "details": "3 - Travelers may carry liquids, aerosols, gels, creams, and pastes in containers of 3.4oz (100ml) or smaller. 1 - These items must fit into 1 clear plastic quart-sized bag. 1 - Only 1 bag per passenger is allowed."
+      }
+    ]
+  }
+]

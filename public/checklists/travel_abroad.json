@@ -39,24 +39,14 @@
         "label": "credit / ATM cards"
       },
       {
-        "label": "global adapter"
+        "label": "global travel adapter"
       },
       {
         "label": "language translation apps or phrasebooks"
+      },
+      {
+        "label": "luggage tags for easy bag identification"
       }
     ]
-  },
-  {
-    "category": "health & safety",
-    "contents": [
-    {
-      "label": "first-aid kit" },
-    {
-      "label": "medication" },
-    {
-      "label": "Allergy pills" },
-    {
-      "label": "Antibiotic cream" }
-  ]}
-
+  }
 ]

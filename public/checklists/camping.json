@@ -1,0 +1,128 @@
+[
+  {
+    "category": "camp gear",
+    "contents": [
+      {
+        "label": "backpack with raincover"
+      },
+      {
+        "label": "backpacking tent"
+      },
+      {
+        "label": "sleeping bag"
+      },
+      {
+        "label": "headlamp or flashlight"
+      },
+      {
+        "label": "extra batteries"
+      },
+      {
+        "label": "insect repellent"
+      },
+      {
+        "label": "small combination lock"
+      },
+      {
+        "label": "repair kit"
+      },
+      {
+        "label": "daypack",
+        "details": "for day trips away from camp"
+      }
+    ]
+  },
+  {
+    "category": "backpacking gear",
+    "contents": [
+      {
+        "label": "money belt",
+        "details": "stash your most valuable to guarantee your suvival even when everything else is gone"
+      },
+      {
+        "label": "navigation",
+        "details": "map, compass, GPS"
+      },
+      {
+        "label": "trekking poles"
+      },
+      {
+        "label": "bear spray"
+      },
+      {
+        "label": "whistle"
+      },
+      {
+        "label": "sunglasses"
+      },
+      {
+        "label": "sunscreen"
+      },
+      {
+        "label": "SPF lip balm"
+      },
+      {
+        "label": "emergency blanket"
+      },
+      {
+        "label": "fire starter",
+        "details": "for emergency survival fire"
+      }
+    ]
+  },
+  {
+    "category": "kitchen gear",
+    "contents": [
+      {
+        "label": "lighter, fire starter or waterproof matches"
+      },
+      {
+        "label": "stove, pots & fuel"
+      },
+      {
+        "label": "utensils, dishes, cups"
+      },
+      {
+        "label": "water treatment or filter"
+      },
+      {
+        "label": "quick-dry towels"
+      },
+      {
+        "label": "soap"
+      },
+      {
+        "label": "energy packed food and snacks"
+      },
+      {
+        "label": "extra day's supply of food"
+      }
+    ]
+  },
+  {
+    "category": "clothing & footwear",
+    "contents": [
+      {
+        "label": "hiking boots"
+      },
+      {
+        "label": "moisture-wicking underwears"
+      },
+      {
+        "label": "moisutre-wicking t-shirts"
+      },
+      {
+        "label": "quick-dry pants"
+      },
+      {
+        "label": "rainwear"
+      },
+      {
+        "label": "lightweight fleece or jacket"
+      },
+      {
+        "label": "insulated jacket"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "category": "something not so essential but nice to have",
+    "contents": [
+      {
+        "label": "eye mask"
+      },
+      {
+        "label": "ear plugs"
+      },
+      {
+        "label": "neck pillows"
+      },
+      {
+        "label": "sunglasses"
+      },
+      {
+        "label": "eye drops"
+      },
+      {
+        "label": "tissues"
+      },
+      {
+        "label": "umbrella"
+      },
+      {
+        "label": "water bottle"
+      },
+      {
+        "label": "fold-up tote bag",
+        "details": "large-capacity bag that rolls up into a pocket-size pouch, for laundry, extra souvenirs or whatever unexpected"
+      },
+      {
+        "label": "energy bars or your favorite snacks"
+      },
+      {
+        "label": "gum"
+      }
+    ]
+  }
+]

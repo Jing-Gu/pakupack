@@ -1,0 +1,80 @@
+[
+  {
+    "category": "clothes & accessories",
+    "contents": [
+      {
+        "label": "swimwear"
+      },
+      {
+        "label": "cover-ups"
+      },
+      {
+        "label": "undershirts / bras"
+      },
+      {
+        "label": "casual shirts"
+      },
+      {
+        "label": "sandals / flip-flops"
+      },
+      {
+        "label": "sun hat"
+      },
+      {
+        "label": "socks"
+      },
+      {
+        "label": "sunglasses"
+      },
+      {
+        "label": "beach bag"
+      }
+    ]
+  },
+  {
+    "category": "beach gear",
+    "contents": [
+      {
+        "label": "beach umbrella"
+      },
+      {
+        "label": "beach towels"
+      },
+      {
+        "label": "beach blankets"
+      },
+      {
+        "label": "beach chairs"
+      },
+      {
+        "label": "beach sports games"
+      },
+      {
+        "label": "cooler"
+      }
+    ]
+  },
+  {
+  "category": "misc beach essentials",
+  "contents": [
+    {
+      "label": "waterproof pocket for phone"
+    },
+    {
+      "label": "sunscreen"
+    },
+    {
+      "label": "SPF lip balm"
+    },
+    {
+      "label": "after-sun lotion"
+    },
+    {
+      "label": "bug spray"
+    },
+    {
+      "label": "water bottle"
+    }
+  ]
+}
+]
