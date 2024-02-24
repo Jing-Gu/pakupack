@@ -1,6 +1,6 @@
 ---
 const today = new Date();
-import { githubLink } from '../data/siteData.json';
+import { repoLink } from '../data/siteData.json';
 ---
 
 <footer class="text-chk-charcoal text-center p-8">
@@ -9,7 +9,7 @@ import { githubLink } from '../data/siteData.json';
 		<span class="text-chk-teal text-xl font-bold">Pakupack</span>
 	</span>
 	<p>Enjoy Pakupack? Give it a star on
-		<a {href}={githubLink} target="_blank" class="text-chk-teal">Github</a> 👍
+		<a {href}={repoLink} target="_blank" class="text-chk-teal">Github</a> 👍
 	</p>
 	<p>&copy; {today.getFullYear()} Pakupack Traveler's Checklist. All rights reserved.</p>
 </footer>

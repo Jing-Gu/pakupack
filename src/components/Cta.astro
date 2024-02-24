@@ -1,13 +1,13 @@
 ---
-import { buyMeCoffeeLink, email } from '../data/siteData.json';
+import { githubProfile, buyMeCoffeeLink, email } from '../data/siteData.json';
 ---
 
 <div class="text-chk-charcoal flex flex-col gap-4">
   <h2 class="text-3xl font-semibold">Say Hi 👋</h2>
-  <p>This is a side project by JGU.</p>
+  <p>This is a side project by <a {href}={githubProfile} target="_blank" class="text-chk-teal">JGU</a>.</p>
   <p>
     If you find Pakupack Traveler's checklist useful, you can
-    <a {href}={buyMeCoffeeLink} target="_blank"class="text-chk-teal">buy me a coffee</a>. ☕
+    <a {href}={buyMeCoffeeLink} target="_blank" class="text-chk-teal">buy me a coffee</a>. ☕
   </p>
   <p>If you have any feedback, feel free to
     <a {href}={`mailto:${email}`} class="text-chk-teal">send me an email</a>. 🙂
