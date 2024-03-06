@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://pakupack.app/sitemap-index.xml
